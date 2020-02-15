@@ -2284,6 +2284,8 @@ footer .info-wrap .info-body p {
 }
 
 footer .corp h1 {
+  font-family: "Berlin Sans FB", Lato, "Montserrat", serif;
+  font-size: 44px;
   font: normal 44px "Berlin Sans FB";
   margin-top: 53px;
   margin-bottom: 18px;
