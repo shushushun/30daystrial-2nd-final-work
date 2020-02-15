@@ -88,11 +88,11 @@ $(function(){
     if ($answer.hasClass('open')) {
       $answer.removeClass('open');
       $answer.slideUp();
-      $(this).find('.qa-title img').attr('src', '../img/min/PC/plus.svg');
+      $(this).find('.qa-title img').attr('src', './img/min/PC/plus.svg');
     } else {
       $answer.addClass('open');
       $answer.slideDown();
-      $(this).find('.qa-title img ').attr('src', '../img/min/PC/minus.svg');
+      $(this).find('.qa-title img ').attr('src', './img/min/PC/minus.svg');
     }
   });
 
