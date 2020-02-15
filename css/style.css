@@ -83,6 +83,7 @@ header .navbar ul li a {
   text-decoration: none;
   line-height: 1.6875;
   letter-spacing: -0.4px;
+  border-bottom: none !important;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   padding: 0 !important;
@@ -116,13 +117,13 @@ header .navbar ul li:last-child {
 
 #drawer-wrapper {
   width: 80%;
-  height: 100vh;
+  height: 100%;
   display: none;
   position: fixed;
   top: 0;
   right: 0;
   background-color: #fff;
-  z-index: 100;
+  z-index: 101;
 }
 
 #drawer-wrapper ul {
