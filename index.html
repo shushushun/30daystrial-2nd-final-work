@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+  <!-- Header Area-->
+  <header id="hoge">
+    <div class="navbar navbar-expand-md"  id="navbar">
+      <a class="navbar-brand" href="#"><img src="./img/min/SP/logo.png" alt="#"></a>
+      <div class="toggler" id="drawer-open">
+        <img src="./img/min/SP/hamburger.svg" alt="#">
+      </div>
+      <nav class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto drawer-menu">
+          <li class="hoge"><a href="#"></a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#results">Results</a></li>
+          <li><a href="#price">Price</a></li>
+          <li><a href="#comments">Comments</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Drawer Area -->
+  <div id="over-lay"></div>
+  <span id="drawer-close"><img src="./img/min/batsu.svg" alt="#"></span>
+  <div id="drawer-wrapper">
+    <ul id="drawer-nav">
+      <li class="hoge"><a href="#"></a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#price">Price</a></li>
+      <li><a href="#comments">Comments</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Home Inner Area -->
+  <div class="home-wrapper">
+    <div class="home-body">
+      <h1>詩が生れて、画が出来る。 <br>とかくに人の世は住みにくい。</h1>
+      <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+      <div class="btn-wrap">
+        <a href="#contact">お問い合わせしてみる</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Btn -->
+  <div class="scroll-btn">
+    <a href="#"><img src="./img/min/PC/totop.svg" alt="#"></a>
+  </div>
+
+  <!-- News Area -->
+  <div class="news-wrapper" id="news">
+    <h1 class="text-center">News</h1>
+    <ul class="news-body">
+      <li class="news">
+        <p class="day">2019-02-01</p>
+        <a href="#" class="news-btn">テキスト</a>
+        <p class="news-contents">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</p>
+        <img src="./img/min/PC/news-arrow.svg" alt="#">
+      </li>
+      <li class="news">
+        <p class="day">2019-02-01</p>
+        <a href="#" class="news-btn">テキスト</a>
+        <p class="news-contents">ニュースニュースニュースニュースニュースニュースニュース</p>
+        <img src="./img/min/PC/news-arrow.svg" alt="#">
+      </li>
+      <li class="news">
+        <p class="day">2019-02-01</p>
+        <a href="#" class="news-btn">テキスト</a>
+        <p class="news-contents">ニュースニュースニュースニュースニュースニュースニュース</p>
+        <img src="./img/min/PC/news-arrow.svg" alt="#">
+      </li>
+    </ul>
+    <div class="more-wrap">
+      <a href="#">MORE</a>
+    </div>
+  </div>
+
+  <!-- Service Area -->
+  <div class="service-wrapper" id="service">
+    <h1 class="text-center">Service</h1>
+    <ul class="service-body">
+      <li class="service">
+        <span><img src="./img/min/PC/service1.svg" alt="#"></span>
+        <h3>WEB<br>DESIGN</h3>
+        <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+      </li>
+      <li class="service">
+        <span><img src="./img/min/PC/service2.svg" alt="#"></span>
+        <h3>WEB<br>CODING</h3>
+        <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+      </li>
+      <li class="service">
+        <span><img src="./img/min/PC/service3.svg" alt="#"></span>
+        <h3>CMS<br>CUSTOMIZE</h3>
+        <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Results Area -->
+  <div class="results-wrapper" id="results">
+    <h1>Results</h1>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/min/PC/slide1@2x.png" alt="#">
+          <div class="slide-body">
+            <h5>とかくに人の世は住みにくい。</h5>
+            <p>どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/min/PC/slide1@2x.png" alt="#">
+          <div class="slide-body">
+            <h5>とかくに人の世は住みにくい。</h5>
+            <p>どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/min/PC/slide1@2x.png" alt="#">
+          <div class="slide-body">
+            <h5>とかくに人の世は住みにくい。</h5>
+            <p>どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/min/PC/slide1@2x.png" alt="#">
+          <div class="slide-body">
+            <h5>とかくに人の世は住みにくい。</h5>
+            <p>どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/min/PC/slide1@2x.png" alt="#">
+          <div class="slide-body">
+            <h5>とかくに人の世は住みにくい。</h5>
+            <p>どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/min/PC/slide1@2x.png" alt="#">
+          <div class="slide-body">
+            <h5>とかくに人の世は住みにくい。</h5>
+            <p>どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="btn-wrap">
+      <a href="#" class="results-btn">VIEW ALL</a>
+    </div>
+  </div>
+
+  <!-- Price Area -->
+  <div class="price-wrapper" id="price">
+    <h1 class="text-center">Price</h1>
+    <table>
+      <tr>
+        <th>row1</th>
+        <td>Price ￥10,000</td>
+      </tr>
+      <tr>
+        <th>row2</th>
+        <td>Price ￥10,000</td>
+      </tr>
+      <tr>
+        <th>row3</th>
+        <td>Price ￥10,000</td>
+      </tr>
+    </table>
+    <p>※ 上記料金はサンプルです。</p>
+  </div>
+
+  <div class="big-back"></div>
+
+  <!-- Comments Area -->
+  <div class="comments-wrapper" id="comments">
+    <div class="comments-body">
+      <h1>Comments</h1>
+      <div class="comment">
+        <img src="./img/min/PC/comments1.png" alt="#">
+        <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟っ時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+      </div>
+      <div class="comment">
+        <img src="./img/min/PC/comments2.png" alt="#">
+        <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟っ時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+      </div>
+    </div>
+    <img class="comments-img" src="./img/min/PC/comments3@2x.png" alt="#">
+  </div>
+
+  <!-- Q&A Area -->
+  <div class="qa-wrapper" id="faqs">
+    <h1 class="text-center">Q&A</h1>
+    <div class="qa-container">
+      <ul class="qa-list">
+        <li class="qa-list-item">
+          <div class="qa-title">
+            <h3>質問質問質問？</h3>
+            <span><img src="./img/min/PC/plus.svg" alt="#"></span>
+          </div>
+          <div class="answer">
+            <p>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+          </div>
+        </li>
+        <li class="qa-list-item">
+          <div class="qa-title">
+            <h3>質問質問質問？<br>また、質問は質問質問？</h3>
+            <span><img src="./img/min/PC/plus.svg" alt="#"></span>
+          </div>
+          <div class="answer">
+            <p>回答回答回答回答回答回答回答回答回答回答回答回答</p>
+          </div>
+        </li>
+        <li class="qa-list-item">
+          <div class="qa-title">
+            <h3>質問質問質問？</h3>
+            <span><img src="./img/min/PC/plus.svg" alt="#"></span>
+          </div>
+          <div class="answer">
+            <p>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+          </div>
+        </li>
+        <li class="qa-list-item">
+          <div class="qa-title">
+            <h3>質問質問質問？</h3>
+            <span><img src="./img/min/PC/plus.svg" alt="#"></span>
+          </div>
+          <div class="answer">
+            <p>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+          </div>
+        </li>
+        <li class="qa-list-item">
+          <div class="qa-title">
+            <h3>質問質問質問？</h3>
+            <span><img src="./img/min/PC/plus.svg" alt="#"></span>
+          </div>
+          <div class="answer">
+            <p>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+          </div>
+        </li>
+        <li class="qa-list-item">
+          <div class="qa-title">
+            <h3>質問質問質問？</h3>
+            <span><img src="./img/min/PC/plus.svg" alt="#"></span>
+          </div>
+          <div class="answer">
+            <p>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Access Area -->
+  <div class="access-wrapper">
+    <div class="access-body">
+      <h1>Access</h1>
+      <p>〒106-6126<br>東京都港区六本木 6丁目 10-1<br>六本木ヒルズ森タワー</p>
+    </div>
+    <div class="map">
+      <div class="iframe-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6693059716354!2d139.72709271544983!3d35.660518380199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b770913970d%3A0xccc3467fcb15b353!2zR29vZ2xl5ZCI5ZCM5Lya56S-44O75YWt5pys5pyo44Kq44OV44Kj44K5!5e0!3m2!1sja!2sjp!4v1581401417172!5m2!1sja!2sjp" width="720" height="515" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    <div class="btn-wrap">
+      <a href="https://www.google.co.jp/maps/place/Google%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BE%E3%83%BB%E5%85%AD%E6%9C%AC%E6%9C%A8%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B9/@35.6604733,139.7270375,17z/data=!4m8!1m2!2m1!1zR29vZ2xl5ZCI5ZCM5Lya56S-44O75YWt5pys5pyo44Kq44OV!3m4!1s0x60188b770913970d:0xccc3467fcb15b353!8m2!3d35.6605184!4d139.7292814?hl=ja" class="access-btn">Google Maps</a>
+    </div>
+  </div>
+  
+
+  <!-- Contant Area -->
+  <div class="contact-wrapper" id="contact">
+    <div class="form-head">
+      <div class="head-body">
+        <h1>Contact Us</h1>
+        <p>どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。</p>
+      </div>
+    </div>
+
+    <form action="confirm.php" method="POST">
+      <div class="item-wrapper">
+        <div class="item select-item">
+          <label for="type" class="label-form label-select">お問い合わせ種別</label>
+          <select name="type" id="yourtype">
+            <option value="#" style="display: none;">選択してください</option>
+            <option value="#">hoge</option>
+            <option value="#">hoge</option>
+            <option value="#">hoge</option>
+          </select>
+        </div>
+  
+        <div class="item">
+          <label for="name" class="label-form required">氏名</label>
+          <input type="text" name="yourname" id="name" class="inputs" placeholder="氏名">
+        </div>
+  
+        <div class="item">
+          <label for="ruby" class="label-form required">フリガナ</label>
+          <input type="text" name="yourruby" id="ruby" class="inputs" placeholder="フリガナ">
+        </div>
+  
+        <div class="item">
+          <label for="email" class="label-form">メールアドレス</label>
+          <input type="text" name="youremail" id="email" class="inputs" placeholder="sample@gmail.com">
+        </div>
+  
+        <div class="item">
+          <p class="label-form">性別</p>
+          <label for="male">
+            <input type="radio" name="sex" value="male" id="male">
+            <span>男性</span>
+          </label>
+          <label for="female">
+            <input type="radio" name="sex" value="female" id="female">
+            <span>女性</span>
+          </label>
+        </div>
+  
+        <div class="item message">
+          <label for="comment" class="label-form">メッセージ</label>
+          <textarea name="yourcomment" id="comment"></textarea>
+        </div>
+  
+        <div class="check-wrap">
+          <label for="consent" class="checkbox"> 
+            <input type="checkbox" name="consent" id="consent">
+            <span>個人情報保護方針に同意する</span>
+          </label>
+        </div>
+  
+        <div class="btn-wrap">
+          <input type="submit" value="送信する">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer Area -->
+  <footer>
+    <div class="info-wrap">
+      <div class="awesome-wrap">
+        <div class="btn-font-awesome twitter"></div>
+        <div class="btn-font-awesome facebook"></div>
+      </div>
+      <div class="info-body">
+        <p>サイトマップ</p>
+        <p>個人情報保護方針</p>
+        <p>プライバシーポリシー</p>
+      </div>
+    </div>
+    <div class="corp">
+      <h1>HANIWAMAN Corp.</h1>
+      <p>© Haniwaman Landing page Sample.</p>
+    </div>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+  <script src="./js/script.min.js"></script>
+</body>
+</html>
